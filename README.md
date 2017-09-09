@@ -2,6 +2,8 @@
 
 > An online store and shopping cart
 
+![Screenshot](https://github.com/travishorn/vue-online-store-demo/blob/master/vue-onlne-store-screenshot.png?raw=true)
+
 ## Build Setup
 
 ``` bash
