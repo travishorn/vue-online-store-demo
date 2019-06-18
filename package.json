@@ -1,7 +1,7 @@
 {
   "name": "my-online-store",
   "description": "An online store and shopping cart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Travis Horn",
   "private": true,
   "license": "MIT",
