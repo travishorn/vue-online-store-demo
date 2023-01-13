@@ -1,8 +1,10 @@
 # my-online-store
 
-> An online store and shopping cart
+> ⚠️ This is an old version. [The updated version uses Vue 3.](https://github.com/travishorn/vue-online-store-demo)
 
-![Screenshot](https://github.com/travishorn/vue-online-store-demo/blob/master/vue-onlne-store-screenshot.png?raw=true)
+An online store and shopping cart
+
+![Screenshot](vue-onlne-store-screenshot.png)
 
 ## Build Setup
 
