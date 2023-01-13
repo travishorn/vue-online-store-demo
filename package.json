@@ -9,6 +9,16 @@
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travishorn/vue-online-store-demo.git"
+  },
+  "author": "Travis Horn <travis@travishorn.com> (https://travishorn.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/travishorn/vue-online-store-demo/issues"
+  },
+  "homepage": "https://github.com/travishorn/vue-online-store-demo#readme",
   "dependencies": {
     "@heroicons/vue": "^2.0.13",
     "pinia": "^2.0.28",
