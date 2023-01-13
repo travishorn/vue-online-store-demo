@@ -1,28 +1,30 @@
 {
-  "name": "my-online-store",
-  "description": "An online store and shopping cart",
-  "version": "1.0.1",
-  "author": "Travis Horn",
+  "name": "vue-online-store-demo",
+  "version": "2.0.0",
+  "description": "Demo of an online store and shopping cart built with Vue 3.",
   "private": true,
-  "license": "MIT",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "vue": "^2.3.3",
-    "vuex": "^2.4.0"
+    "@heroicons/vue": "^2.0.13",
+    "pinia": "^2.0.28",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "babel-core": "^6.0.0",
-    "babel-loader": "^6.0.0",
-    "babel-preset-env": "^1.5.1",
-    "cross-env": "^3.0.0",
-    "css-loader": "^3.0.0",
-    "file-loader": "^0.9.0",
-    "vue-loader": "^12.1.0",
-    "vue-template-compiler": "^2.3.3",
-    "webpack": "^2.6.1",
-    "webpack-dev-server": "^3.1.11"
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "postcss": "^8.4.21",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.0.0"
   }
 }

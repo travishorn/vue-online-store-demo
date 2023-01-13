@@ -1,10 +1,14 @@
-import Vue from 'vue';
-import App from './App.vue';
-import store from './store';
+import { createApp } from "vue";
+import { createPinia } from "pinia";
 
-/* eslint-disable no-new */
-new Vue({
-  el: '#app',
-  store,
-  render: h => h(App),
-});
+import App from "./App.vue";
+import router from "./router";
+
+import "./assets/main.css";
+
+const app = createApp(App);
+
+app.use(createPinia());
+app.use(router);
+
+app.mount("#app");
